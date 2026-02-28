@@ -5,6 +5,6 @@
 %>
 <html>
   <body>
-    <h1><%= greet %>, Ian Bangcoy, Welcome to COMP367</h1>
+    <h1><%= greet %>, Ian Bangcoy, Welcome to COMP367!</h1>
   </body>
 </html>
