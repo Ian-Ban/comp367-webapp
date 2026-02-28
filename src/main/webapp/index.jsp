@@ -1,7 +1,7 @@
 ﻿<%@ page import="java.time.LocalTime" %>
 <%
   int hour = LocalTime.now().getHour();
-  String greet = "Good morning";
+ String greet = "Good afternoon";
 %>
 <html>
   <body>
