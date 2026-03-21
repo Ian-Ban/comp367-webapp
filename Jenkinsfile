@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Maven3'
+    }
+
     environment {
         IMAGE_NAME = "ianbangcoy/comp367-webapp:latest"
         DOCKERHUB_CREDENTIALS = "dockerhub-credentials"
