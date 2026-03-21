@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = "ianbangcoy/comp367-webapp:latest"
+        IMAGE_NAME = "theoneian/comp367-webapp:latest"
         DOCKERHUB_CREDENTIALS = "dockerhub-credentials"
     }
 
